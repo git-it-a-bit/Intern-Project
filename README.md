@@ -34,7 +34,6 @@ A scalable backend API built with **Node.js, Express, and MongoDB** that provide
 ```bash
 git clone https://github.com/git-it-a-bit/Intern-Project.git
 cd Intern-Project
-cd Backend
 ```
 
 ### 2. Install dependencies
