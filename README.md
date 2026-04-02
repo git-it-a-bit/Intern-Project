@@ -32,7 +32,7 @@ A scalable backend API built with **Node.js, Express, and MongoDB** that provide
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/dixitorbital/Intern-Project.git
+git clone https://github.com/git-it-a-bit/Intern-Project.git
 cd Intern-Project
 cd Backend
 ```
