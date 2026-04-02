@@ -45,7 +45,7 @@ export const getUsers = async (req, res, next) => {
 
 export const createUser = async (req, res, next) => {
   try {
-    const { name, email, password, role } = req.body;
+    const { name, email, password, role, status } = req.body;
 
     // 1. Validate input
     if (!name || !email || !password) {
@@ -68,7 +68,7 @@ export const createUser = async (req, res, next) => {
       email,
       password: hashedPassword,
       role: role,
-      status: "active",
+      status,
     });
 
     // 6. Remove password from response
